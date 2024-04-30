@@ -4,7 +4,6 @@ import { CLASS_TITLE_CONTAINER } from "./className";
 export const css = `
 /* Root */
 .asc_FolderRoot{
-	background: white;
 	position: relative;
 	padding-bottom: 7px;
 	padding-left: 13px;
@@ -38,6 +37,7 @@ export const css = `
 }
 .asc_Folder>.${CLASS_TITLE_CONTAINER} .asc_folderIcon>.material-icons{
 	font-size: 20px;
+ 	color: wheat;
 }
 
 .asc_Folder>.${CLASS_TITLE_CONTAINER} .asc_closed{
@@ -56,6 +56,7 @@ export const css = `
 	text-overflow: ellipsis;
 	overflow: hidden;
 	white-space: nowrap;
+ 	color: wheat;
 }
 
 .asc_Folder > .asc_folder_ChildList {
