@@ -4,7 +4,6 @@ import { CLASS_TITLE_CONTAINER } from "./className";
 export const css = `
 /* Root */
 .asc_FolderRoot{
-	background: white;
 	position: relative;
 	padding-bottom: 7px;
 	padding-left: 13px;
@@ -30,6 +29,7 @@ export const css = `
 	
 	user-select: none;
 	cursor: pointer;
+	color: wheat;
 }
 .asc_Folder>.${CLASS_TITLE_CONTAINER} .asc_folderIcon{
 	display: flex;
