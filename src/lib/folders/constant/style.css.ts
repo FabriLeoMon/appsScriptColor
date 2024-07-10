@@ -29,7 +29,7 @@ export const css = `
 	
 	user-select: none;
 	cursor: pointer;
-	color: wheat;
+	color: darkgoldenrod;
 }
 .asc_Folder>.${CLASS_TITLE_CONTAINER} .asc_folderIcon{
 	display: flex;
